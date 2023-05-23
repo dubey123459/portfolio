@@ -344,9 +344,9 @@
             </div>
             <div class="col">
                 <h3>Newsletter</h3>
-                <form action="">
+                <form onsubmit="SendEmail(); reset(); return false">
                     <i class='fas bx bx-envelope' ></i>
-                    <input type="email" required placeholder="Enter your email Id">
+                    <input type="email" id="emai" required placeholder="Enter your email Id">
                     <button type="submit"><i class='bx bx-right-arrow-alt' ></i></button>
                 </form>
                 <div class="social-icons">
@@ -368,7 +368,7 @@
     </footer>
 
 
-    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bx-up-arrow-alt'></i></button>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='bx bx-up-arrow-alt'></i></button> -->
 
     <!-- scroll reveal -->
     <script src=" https://smtpjs.com/v3/smtp.js"></script>

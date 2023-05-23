@@ -15,11 +15,11 @@ let navlinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
     // scrollto top
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
+    // if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    //     mybutton.style.display = "block";
+    //   } else {
+    //     mybutton.style.display = "none";
+    //   }
     //   till
     sections.forEach(sec => {
         let top = window.scrollY;
