@@ -38,6 +38,7 @@ color: var(--text-color);
 
 /* header section */
 .header{
+
 position: fixed;
 top: 0%;
 left: 0%;
@@ -50,8 +51,6 @@ z-index: 100;
 transition: 0.5s ;
 }
 .header.sticky {
-    width: auto;
-    position: sticky;
     background: var(--bg-color);
     box-shadow: 0 .1rem 1rem var(--shadow-color);
 }
@@ -66,6 +65,7 @@ transition: 0.5s ;
     margin-right: auto;
     
 }
+
 .navbar a {
     position: relative;
 font-size: 1.7rem;
@@ -839,6 +839,7 @@ max-width: 50rem;
 @media(max-width:768px) {
 
     #menu-icon {
+     
         display: block;
         cursor: pointer;
     }
